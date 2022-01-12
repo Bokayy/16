@@ -1,0 +1,39 @@
+@import "navbar";
+@import "colors";
+@import "media-queries";
+@import "main";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    // font-size: 62.5%;
+    font-family: "Montserrat", "Poppins";
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    height: 10vh;
+}
+
+h1{
+    font-size: 4rem;
+    color: $lime;
+}
+
+h2{
+    h1{
+        font-size: 4rem;
+        color: $dark;
+        margin-top: 1rem;
+        font-weight: 700;
+    }
+}
+
+p{
+    font-size: 2rem;
+    color: $dark;
+}
