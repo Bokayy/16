@@ -25,6 +25,7 @@ h1{
 }
 
 h2{
+    font-size: 4rem;
     h1{
         font-size: 4rem;
         color: $dark;
@@ -36,4 +37,40 @@ h2{
 p{
     font-size: 2rem;
     color: $dark;
+    margin-top: 1rem;
+    font-weight: 700;
 }
+.btn{
+    font-size: 1rem;
+    padding: 12px 24px;
+    background: $lime;
+    color: $light;
+    border-radius: 5px;
+    // margin-left: 16px;
+    margin-top: 2rem;
+    outline:none;
+    border:none;
+
+    &:hover{
+        background-color: $orange;
+        transition: all 0.3s;
+    }
+}
+
+.img-alien{
+    height: 100%;
+    width: 100%;
+    animation: slide-up ease 2s forwards;
+    margin-bottom: -80vh;
+}
+
+@keyframes slide-up{
+    0%{
+        margin-bottom:-80vh;
+    }
+
+    100%{
+        margin-bottom: 0;
+    }
+}
+
